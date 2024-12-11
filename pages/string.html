@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string methods</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="color: white;text-align: center;">String Methods in JS</h1>
+        <form action="">
+            <!--STRING LENGTH-->
+            <div>
+                <input type="text" id="textbox" class="textbox" placeholder="Enter text">
+                <button type="submit" onclick="text_length()">Find count</button>
+            </div>
+            <!--STRING TO UPPERCASE-->
+            <div>
+                <input type="text" id="toupper" class="textbox" placeholder="Enter text">
+                <button type="submit" onclick="toUppercase()">Convert to Uppercase</button>
+            </div>
+            <!--STRING TO LOWERCASE-->
+            <div>
+                <input type="text" id="tolower" class="textbox" placeholder="Enter text">
+                <button type="submit" onclick="tolowercase()">Convert to lowercase</button>
+            </div>
+            <!--STRING CONCATINATION-->
+            <div>
+                <input type="text" id="txtbox1" class="textbox" placeholder="Enter text 1">
+                <input type="text" id="txtbox2" class="textbox" placeholder="Enter text 2">
+                <button type="submit" onclick="concats()">Click to combine</button>
+            </div>
+            <!---SUBSTRING-->
+            <div>
+                <input type="text" id="substr" class="textbox" placeholder="Enter text">
+                <input type="text" id="substr1" placeholder="Enter start pos" class="textbox">
+                <input type="text" id="substr2" placeholder="Enter Ending pos" class="textbox">
+                <button type="submit" onclick="subs()">Click for substring</button>
+            </div>
+            <!---SLICE-->
+            <div>
+                <input type="text" id="slice" class="textbox" placeholder="Enter text">
+                <button type="button" onclick="slices()">Click for sliced string</button>
+            </div>
+            <!---TRIM-->
+            <div>
+                <input type="text" id="totrim" placeholder="Enter text to trim" class="textbox">
+                <button type="submit" onclick="totrims()">Click to trim</button>
+            </div>
+            <!--INCLUDES-->
+            <div>
+                <input type="text" id="includes_txt" placeholder="Enter text" class="textbox">
+                <input type="text" id="search_txt" placeholder="Enter text to search" class="textbox">
+                <button type="submit" onclick="isincludes()">Click to Search</button>
+            </div>
+
+        </form>
+
+    </div>
+    <script src="/js/string.js"></script>
+</body>
+
+</html>
